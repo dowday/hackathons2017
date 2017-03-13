@@ -12,38 +12,46 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <style>
+	@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+	
+    [class*="col-"] {
+        width: 100%;
+		text-align:center;
+    }
+	#pagewrap {
+	width: 100%;
+}
+.op {
+	font-size:7rem;
+}
+.ge {
+	font-size:4.9rem;
+}
+span.stretch {
+	font-size:2.4rem;
+}
+</style>
 	</head>
 	<body>
 
 		<!-- Header -->
-			<section id="header">
-				<header>
-					<h1>Open Geneva Hackathons 2017</h1>
-					<p>12 - 14 May 2017 <br> Geneva <br> Switzerland</p>
-				</header>
-				<!--<footer>
-					<a href="#banner" class="button style2 scrolly-middle">Proceed as anticipated</a>
-				</footer>-->
+			<section id="mypagetitle">
+            <span class="op">Open</span><br>
+   		    <span class="ge">Geneva</span><br>
+	      <span class="stretch" style="text-shadow: 3px 3px 0px #1c1c1c;">HACKATHONS</span><br>
+	      <span class="date" style="text-shadow: 3px 3px 0px #1c1c1c;">12 - 14 May 2017</span>
 			</section>
 
 		<!-- Banner -->
-			<section id="banner">
+			<section id="banner" style="line-height:150%; background-color:#71b6e9;color:#fff;">
 				<header>
-					<h2>A Hack Festival</h2>
+					3ème édition – 3rd edition<h2>Open Geneva hackathons</h2>
 					<br>
-					<p>with</p>
-					<h4>
-						  Schools
-						 <br> Hospitals
-						 <br> Companies
-						 <br> Universities
-						 <br> Associations
-						 <br> Research Centers
-						 <br> International Organizations
-					</h4>
-					<p>
-						<br>organizing their own events across the city
-						<br>[ Fr. 12 and Sat. 13 May 2017 ]
+					<p> Pour la 3ème année de suite, l’évènement qui réunit chercheurs, développeurs et grand public, autour de thèmes technologiques et sociaux d’intérêt pour la Genève internationale, la Genève entrepreneuriale, la Cité et tous ses acteurs.<br>
+                      <br>
+                      For the third year in a row, an event that brings together researchers, developers and the general public, around technological and social themes of interest to International Geneva, Entrepreneurial Geneva, the wider city and all its key players.
 					</p>
 				</header>
 				<!--
@@ -52,103 +60,205 @@
 				under the <a href="http://html5up.net/license">Creative Commons license</a>.</p>
 				-->
 				<footer>
-
-					<a href="mailto:opengeneva-register@googlegroups.com?subject=Hi, We'd like to join the effort and organize a hackathon" class="button style2 scrolly">Organize your own hackathon</a>
-				  <br>
-					<br>
-					<h4>or</h4>
-					<br>
-
-					<a href="mailto:opengeneva-register@googlegroups.com?subject=Hi, I [We] have an awesome idea for a great project. Can you help me [us]?" class="button style2 scrolly">Let us find a hackathon for your awesome project</a>
-
 				</footer>
 			</section>
 
 		<!-- Feature 1 -->
-		<!--
-			<article id="first" class="container box style1 right ">
-				<a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
-				<div class="inner" align="center">
-					<header>
-						<h2>A Hack Festival</h2>
-						<br>
-						<p>with</p>
-						<h4>
-								Schools
-							 <br> Hospitals
-							 <br> Universities
-							 <br> Associations
-							 <br> Research Centers
-							 <br> International Organizations
-						</h4>
-						<p>
-							<br>organizing their own events
-							<br>across the city
-						</p>
-					</header>
-
-					<header>
-						<h2>Lorem ipsum<br />
-						dolor sit amet</h2>
-					</header>
-					<p>Tortor faucibus ullamcorper nec tempus purus sed penatibus. Lacinia pellentesque eleifend vitae est elit tristique velit tempus etiam.</p>
-					<a href="#first" class="button style1 scrolly">Organize Your Own Hackathon</a>
-
-				</div>
-			</article>
--->
-		<!-- Feature 2 -->
-			<article class="container box style1 right">
-				<a href="#" class="image fit"><img src="images/cb2.jpg" alt="" /></a>
-				<div class="inner" align="center">
-					<header>
-						<h3>One <br> Get-Together</h3>
-							<p>
-								Campus Biotech
-						  	<br> [ Sunday 14 May 2017 ]
-							</p>
-					</header>
-
-				<p>2pm - 4pm <br> Pitch and Poster Preparation</p>
-				<p> 4pm - 6pm <br> Plenary and Pitch Session</p>
-				<p> 6pm - 7pm <br> Cocktail and Networking</p>
-				<br>
-
-				<a href="mailto:opengeneva-register@googlegroups.com?subject=Hi, I would like to register for the get-together event at Campus Biotech on Sunday 14th May 2017" class="button style1 scrolly">Stay tuned</a>
-				</div>
-			</article>
-
+        
 		<!-- Portfolio -->
-			<article class="container box style2">
-				<header>
-					<h3>Prizes, Rewards and Distinctions</h3>
-					<p>for most awesome projects</p>
-				</header>
+			<article class="container box style2 " style="background-color:#ffffff;opacity:0.9;">
+            <div class="myrow">
+				<div class="col-6 title orange" style="text-shadow: 1px 1px 0px #1c1c1c;">Un hackathon -
+			    ça marche comment, au fait ? </div>
+               
+              <div class="col-6 title orange" style="text-shadow: 1px 1px 0px #1c1c1c;">A hackathon - 
+                how does that work, exactly ? </div>
+            </div>
+            
+            <div class="myrow myborder">
+				<div class="col-12 orange">Step<br>
+				  <span class="bigcol"> 1</span>
+                </div>
+            </div>
+            		<!-- Row -->
+                <div class="myrow">
+				<div class="col-6 mybox">
+                  <span class="step">Presentation</span>
+                  <p><span class="small">(fin avril, dates selon hackathon)</span><br>
+                    <span class="do">Presentations eclairs d’idees de projets et formation d’equipes.</span></p>
+               </div>
+                  
+				<div class="col-6 mybox">
+                  <span class="step"> Pitch</span>
+                  <p><span class="small">(late April, dates depending on hackathon)</span><br>
+                    <span class="do">Pitching session and team building.</span></p>
+                  </div>
+            </div>
+            <!-- Row -->
+                        <div class="myrow myborder">
+				<div class="col-12 orange">Step<br>
+				  <span class="bigcol"> 2</span>
+                </div>
+            </div>
+                     <!-- Row -->
+               <div class="myrow">
+				<div class="col-6 mybox">
+                
+                <span class="step">Travail</span>
+                  <p><span class="small">12 - 13 Mai</span><br>
+                    <span class="do">Deux jours de travail d’équipe intensif, dans un lieu adapté, pour reflechir ensemble et créer un prototype.</span></p>
+               </div>
+
+				<div class="col-6 mybox">
+                
+               <span class="step">Work</span>
+                  <p><span class="small">12 - 13 May</span><br>
+                  <span class="do">Two days of intensive team work, in a suitable space, to brainstorm together and build a prototype.</span></p>
+                
+                   </div>
+            </div>
+            <!-- Row -->
+                        <div class="myrow myborder">
+				<div class="col-12 orange">Step<br>
+				  <span class="bigcol"> 3</span>
+                </div>
+            </div>
+  <!-- Row -->
+                 <div class="myrow">
+				<div class="col-6 mybox">
+                 
+                  <span class="step">Presentation</span>
+                  <p><span class="small">14 Mai (apres-midi)</span><br>
+                    <span class="do">Opportunité pour un nombre de projets de présenter les résultats au grand public, la presse, investisseurs et des partenaires potentiels, pour aller plus loin.</span></p>
+               </div>
+                  
+				<div class="col-6 mybox">
+                
+                <span class="step">Show</span>
+                  <p><span class="small">14 May (afternoon)</span><br>
+                  <span class="do">Opportunity for some of the projects to present their results to the general public, the press, investors and potential partners, to go the next step.</span></p> 
+                   </div>
+            </div>
+                        <!-- Row -->
+                        <div class="myrow myborder">
+				<div class="col-12 orange">
+                </div>
+            </div>
 			</article>
-
-			<article class="container box style2">
-
-			<header>
-				<h3>Our Fantastic Partners</h3>
-			</header>
-
-				<div class="inner gallery">
-					<div class="row 0%">
-						<div class="3u 12u(mobile)"><a href="images/partners/unige.png" class="image fit"><img src="images/partners/unige.png" alt="" title="University of Geneva" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/partners/cb.png" class="image fit"><img src="images/partners/cb.png" alt="" title="Campus Biotech, Geneva" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/partners/hug.jpg" class="image fit"><img src="images/partners/hug.jpg" alt="" title="Geneva University Hospitals" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/partners/ccl.jpg" class="image fit"><img src="images/partners/ccl.jpg" alt="" title="Citizen Cyber Lab" /></a></div>
-					</div>
-					<div class="row 0%">
-						<div class="3u 12u(mobile)"><a href="images/partners/theport.png" class="image fit"><img src="images/partners/theport.png" alt="" title="Cherish" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/partners/canton_ge.jpg" class="image fit"><img src="images/partners/canton_ge.jpg" alt="" title="République et Canton de Genève" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/partners/scd17.jpg" class="image fit"><img src="images/partners/scd17.jpg" alt="" title="Smart City Day 2017" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/partners/gcc.jpg"  class="image fit"><img src="images/partners/gcc.jpg" alt="" title="Geneva Creativity Center" /></a></div>
-					</div>
+         
+  <!-- Map -->       
+         			<article class="container box style2 " style="background-color:#ffffff;opacity:0.9;">
+            <div class="myrow mymap">
+				<div class="col-3 mylegenda white" >
+				  <span style="font-size:0.6rem;">(Liste provisoire / Tentative List)</span><p style="font-size:1.5rem;">HACKATHONS</p><br>
+				  <p>Égalité des sexes<br>
+				    Gender Equality</p>
+			      <p>Innovation hospitalière<br>
+			      Hospital Innovation</p>
+			      <p> DIY Biohacking</p>
+			      <p> Localisation intérieure<br>
+		          Indoor Localization</p>
+			      <p> Ville intelligente<br>
+		          Smart City</p>
+			      <p> Blockchain & Gouvernance<br>
+			        des données / Blockchain & Data governance			      </p>
+		          
+			      <p><em>and more ...</em></p>
 				</div>
+                <div class="col-9"></div>
+            </div>
 			</article>
 
-		<!-- Contact -->
+
+<!-- Feature 2 -->
+			<article class="container box style2"  style="background:#ececec;opacity:0.9;">
+
+             <!-- Row -->
+            <div class="myrow">
+				<div class="col-6 mybox">
+                <div class="title orange" style="text-shadow: 1px 1px 0px #1c1c1c;">Comment est-ce que je participe? </div>
+                			  <p class="step"> Participez à un hackathon deja planifié</p>
+				  <p class="do"> Participez à un hackathon deja planifié et joignez-vous à une des équipes. Plus d'info sur l'inscrption soon</p>
+                   <div class="orange small">Inscription bientôt disponible</div>
+                  <p class="medcol orange"><br>OU</p>
+				  <p class="step"> Proposez un projet</p>
+				  <p class="do"> Proposez un projet pertinent a un des hackathons, ou un projet qui vous plait tout particulierement et auquel vous pensez pouvoir contribuer.  </p>
+                  <a href="participate_fr.html"  class="button style2 scrolly">Proposer un projet</a>
+                  <p class="medcol orange"><br>OU</p>
+                  <p class="step">Organisez votre propre hackathon </p>
+                  <p class="do">Organisez votre propre hackathon sur un theme que vous pensez va enthousiasmer les habitants de cette ville. (Contactez-nous pour des conseils pratiques, si c’est votre première fois).</p>
+                  <span style="display:inline-block; width:30px;"></span>
+                  <a href="organize_fr.html"  class="button style2 scrolly">Organiser un hackathon</a>		
+			  </div>
+
+              <div class="col-6 mybox">
+               <div class="title orange" style="text-shadow: 1px 1px 0px #1c1c1c;">How can I participate ?</div>
+              <p class="step"> Join an existing hackathon</p>
+              <p class="do"> <br>Join an existing hackathon</p>
+               <div class="orange small">Registration opens soon</div>
+               
+               <p class="medcol orange"><br>OR</p>
+                             <p class="step">Propose a project</p>
+              <p class="do"> <br>Propose a relevant project or one that you particularly like, and that you think you can contribute to.</p>
+               <a href="participate_eng.html" class="button style2 scrolly">Propose a project</a>
+               <p class="medcol orange"><br>OR</p>
+               
+              <p class="step">Organize a hackathon </p>
+                <p class="do">Organize a hackathon that you think will stimulate the inhabitants of this city. (Contact us for practical suggestions, if this is your first time). </p>
+                  <a href="organize_eng.html"  class="button style2 scrolly">Organize a hackathon</a>
+                
+                </div>
+            </div>
+             <!-- Row -->
+           <div class="myrow">
+				<div class="col-12 orange">
+                <div> 
+                  <p>&nbsp;</p>
+                  <p>Pour toutes questions / for all questions</p>
+                  <p><span class="title"><a href="mailto:hello@opengeneva.org" class="orange">Contact US</a></span></p>
+                  <p>&nbsp;</p>
+                  </div>
+             </div>
+            </div>
+			</article>
+            
+            	<!-- Feature 1 -->
+			<article id="first" class="container box style1 right">
+				<a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
+				<div class="inner">
+					<div class="banner mybanner">
+						<p><span class="mysmall">14 Mai/May 2017</span><br>
+					    Campus Biotech</p>
+						<p class="mysmall">Présentation des résultats au grand public<br>Public presentation of results
+						</p>
+					  <p>14:00 - 16:00 <br>
+					    Posters</p>
+					  <p>16:00 - 18:00 <br>
+					    Présentations/Pitches</p>
+					  <p>18:00 - 19:00 <br>
+						  Cocktail &amp; networking</p>
+						
+			      </div>
+                </div>
+			</article>
+            
+	<!-- Feature 2 -->
+	
+<article class="container box style2 myborder" style="background-color:#FFFFFF;opacity:0.9;">
+            <!-- Row -->
+            <div class="myrow">
+  	<div class="col-12 mybox">
+				<span class="step">OUR PARTNERS </span>
+                </div>
+                </div>
+         <!-- Row -->
+		<div class="myrow">
+  		<div class="col-12 mylogos"><a href="http://www.campusbiotech.ch/en/" target="_blank"><img src="images/partners/cb.png" alt="" height="70" class="imgspace"/></a>
+				<a href="http://citizencyberlab.org/" target="_blank"><img src="images/partners/ccl.png" alt="" width="169" class="imgspace"/></a><a href="http://www.creativitycenter.ch/" target="_blank"><img src="images/partners/gcc.png" height="50" alt="" class="imgspace"/></a> <a href="http://www.hug-ge.ch/en" target="_blank"><img src="images/partners/hug.gif" height="60"  class="imgspace"/></a><a href="http://www.ge.ch/" target="_blank"><img src="images/partners/canton_ge.jpg" height="60" alt="" class="imgspace"/></a> <a href="http://theport.ch/" target="_blank"><img src="images/partners/theport.png" height="60" alt="" class="imgspace"/></a><a href="http://www.unige.ch/" target="_blank"><img src="images/partners/unige.jpg" height="60" alt="" class="imgspace"/></a></div>
+  </div>
+			</article>
+            
+	<!-- Contact -->
 
 		<!--
 
